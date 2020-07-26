@@ -1,3 +1,4 @@
-# WeatherApplication
-## Test
+## Weather Desktop Application
 ![](WeatherApp.gif)
+
+Used openweatherdata
