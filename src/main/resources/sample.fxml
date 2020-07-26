@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="571.0" prefWidth="438.0" style="-fx-background-image: url(back.jpg)" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.Controller">
+   <children>
+      <TextField fx:id="textField" alignment="CENTER" layoutX="137.0" layoutY="32.0" onAction="#getDataForCity" prefHeight="27.0" prefWidth="170.0" style="-fx-border-color: black; -fx-border-style: solid; -fx-border-width: 2;" />
+      <Label layoutX="164.0" layoutY="5.0" prefHeight="18.0" prefWidth="118.0" text="Enter city name" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Helvetica" size="14.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="imageView" fitHeight="122.0" fitWidth="170.0" layoutX="160.0" layoutY="88.0" preserveRatio="true" />
+      <Label layoutX="194.0" layoutY="462.0" text="Country" textFill="WHITE">
+         <font>
+            <Font name="Helvetica" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="206.0" layoutY="514.0" prefHeight="16.0" prefWidth="26.0" text="City" textFill="WHITE">
+         <font>
+            <Font name="Helvetica" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="180.0" layoutY="414.0" prefHeight="17.0" prefWidth="79.0" text="Wind Speed" textFill="WHITE">
+         <font>
+            <Font name="Helvetica" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="177.0" layoutY="318.0" text="Lowest Temp" textFill="WHITE">
+         <font>
+            <Font name="Helvetica" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="175.0" layoutY="366.0" text="Highest Temp" textFill="WHITE">
+         <font>
+            <Font name="Helvetica" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="154.0" layoutY="270.0" text="Current Temperature" textFill="WHITE">
+         <font>
+            <Font name="Helvetica" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="157.0" layoutY="216.0" prefHeight="17.0" prefWidth="131.0" text="Weather Description" textFill="WHITE">
+         <font>
+            <Font name="Helvetica" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="weatherDescription" alignment="CENTER" layoutX="120.0" layoutY="241.0" prefHeight="22.0" prefWidth="195.0" style="-fx-border-style: solid; -fx-border-color: grey; -fx-border-width: 2; -fx-border-width: 3;" textAlignment="CENTER" visible="false">
+         <font>
+            <Font name="Arial Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="temp" alignment="CENTER" layoutX="154.0" layoutY="296.0" prefHeight="17.0" prefWidth="131.0" style="-fx-border-style: solid; -fx-border-color: grey; -fx-border-width: 2; -fx-border-width: 3;" textAlignment="CENTER" visible="false">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="minTemp" alignment="CENTER" layoutX="155.0" layoutY="344.0" prefHeight="17.0" prefWidth="131.0" style="-fx-border-style: solid; -fx-border-color: grey; -fx-border-width: 2; -fx-border-width: 3;" textAlignment="CENTER" visible="false">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="maxTemp" alignment="CENTER" layoutX="157.0" layoutY="392.0" prefHeight="17.0" prefWidth="131.0" style="-fx-border-style: solid; -fx-border-color: grey; -fx-border-width: 2; -fx-border-width: 3;" textAlignment="CENTER" visible="false">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="cityLabel" alignment="CENTER" layoutX="145.0" layoutY="537.0" prefHeight="22.0" prefWidth="149.0" style="-fx-border-style: solid; -fx-border-color: grey; -fx-border-width: 2; -fx-border-width: 3;" textAlignment="CENTER" visible="false">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="country" alignment="CENTER" layoutX="154.0" layoutY="484.0" prefHeight="17.0" prefWidth="131.0" style="-fx-border-style: solid; -fx-border-color: grey; -fx-border-width: 2; -fx-border-width: 3;" textAlignment="CENTER" visible="false">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="windSpeed" alignment="CENTER" layoutX="157.0" layoutY="440.0" prefHeight="17.0" prefWidth="131.0" style="-fx-border-style: solid; -fx-border-color: grey; -fx-border-width: 2; -fx-border-width: 3;" textAlignment="CENTER" visible="false">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="textFieldEmpty" alignment="CENTER" contentDisplay="CENTER" layoutX="120.0" layoutY="71.0" prefHeight="16.0" prefWidth="204.0" text="Please fill textfield with a city name" textAlignment="CENTER" textFill="#d70808" visible="false">
+         <font>
+            <Font name="Helvetica" size="13.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
