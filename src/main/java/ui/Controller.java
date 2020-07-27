@@ -38,7 +38,7 @@ public class Controller {
 
 
     private static final String PRE_API_URL = "https://api.openweathermap.org/data/2.5/weather?q=";
-    private static final String POST_API_URL = "&units=metric&appid=3e062259c293bd41421fe98454fec6af&lang=al";
+    private static final String POST_API_URL = "&units=metric&appid=API_KEY&lang=al";
 
     @FXML
     public void getDataForCity() {
